@@ -4,13 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+// const h1 = React.createElement('h1', { className: 'title' }, 'Hello React');
+
+// const div = React.createElement('div', {
+//   style: { backgroundColor: 'black' ,
+//   width: '400px',
+//   height: '500px'
+// }, h1,);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
